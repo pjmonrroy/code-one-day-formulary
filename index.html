@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link href="./mobile.css" rel="stylesheet" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="desktop.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Registration</h1>
+        <form action="">
+            <label for="">
+                <span>Full Name</span>
+                <input type="text" placeholder="Enter your name" required>
+            </label>
+            <label for="">
+                <span>Username</span>
+                <input type="text" placeholder="Enter your username" required>
+            </label>
+            <label for="">
+                <span>Email</span>
+                <input type="email" placeholder="Enter your email" required>
+            </label>
+            <label for="">
+                <span>Phone number</span>
+                <input type="number" placeholder="Enter your number" required>
+            </label>
+            <label for="">
+                <span>Password</span>
+                <input type="password" placeholder="Enter your password" required>
+            </label>
+            <label for="">
+                <span>Confirm Password</span>
+                <input type="password" placeholder="Confirm your password" required>
+            </label>
+            
+            <div class="container-gender">
+                <h2>Gender</h2>
+                <div  class="secundary-container-gender">
+                    <div class="container-div-articule">
+                        <input type="checkbox" id="check" >
+                        <p>Male</p>
+                    </div>
+                   <div class="container-div-articule">
+                        <input type="checkbox" id="check" >
+                        <p>Female</p>
+                   </div>
+
+                    <div class="container-div-articule">
+                        <input type="checkbox" id="check" >
+                        <p>Prefer not to say</p>
+                    </div>
+                </div>
+            </div>
+            <input id="button-submit" type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
